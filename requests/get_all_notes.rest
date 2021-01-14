@@ -1,11 +1,5 @@
-GET http://localhost:3001/api/notes
+GET http://localhost:3001/api/products/gloves
 
 ###
 
-POST http://localhost:3001/api/notes
-Content-Type: application/json
-
-{
-	"content": "wiht vscode rest client",
-	"important": true
-}
+GET http://localhost:3001/api/availability/ippal
